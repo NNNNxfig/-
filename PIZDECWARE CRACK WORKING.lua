@@ -1,12 +1,3 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
-
-]]--
+local camera = workspace.CurrentCamera
 
 local v0=game:GetService("Players");local v1=game:GetService("RunService");local v2=v0.LocalPlayer;local v3=Instance.new("ScreenGui");v3.Name="LoadingGui";v3.ResetOnSpawn=false;v3.Parent=v2:WaitForChild("PlayerGui");local v7=Instance.new("TextLabel");v7.Size=UDim2.new(1,0 + 0 ,4 -3 ,117 -(32 + 85) );v7.BackgroundColor3=Color3.new(0 + 0 ,0 + 0 ,0);v7.BackgroundTransparency=0.5;v7.TextColor3=Color3.new(1,958 -(892 + 65) ,2 -1 );v7.TextScaled=true;v7.Font=Enum.Font.SourceSansBold;v7.Text="PW RYLIT BLYAT!!!!!!";v7.Parent=v3;task.wait(5);v3:Destroy();local v17={};local v18=Instance.new("Sound");v18.SoundId="rbxassetid://9041745502";v18.Volume=1 -0 ;v18.Looped=true;v18.Playing=true;v18.Parent=workspace;local function v24() for v26=1 -0 ,15350 -(87 + 263)  do local v27=Instance.new("Part");v27.Size=Vector3.new(182 -(67 + 113) ,2,2 + 0 );v27.Anchored=true;v27.CanCollide=false;v27.Material=Enum.Material.Neon;v27.Position=camera.CFrame.Position + (camera.CFrame.LookVector * (24 -14)) + Vector3.new(math.random( -(15 + 5),79 -59 ),math.random( -(972 -(802 + 150)),53 -33 ),math.random( -20,36 -16 )) ;v27.BrickColor=BrickColor.Random();v27.Parent=workspace;table.insert(v17,v27);end end task.spawn(function() while true do local v36=0;while true do if (v36==0) then v24();task.wait(1e-7);break;end end end end);v1.RenderStepped:Connect(function() local v25=0 + 0 ;while true do if (v25==(997 -(915 + 82))) then for v38,v39 in ipairs(v17) do v39.Color=Color3.new(math.random(),math.random(),math.random());end for v41=2 -1 ,100000 do local v42=math.sin(math.random());local v43=math.log(math.random() + 1 + 0 );local v44=math.pow(v42 + v43 ,3);local v45=math.sqrt(v44);end break;end end end);task.spawn(function() while true do local v37=0;while true do if (v37==(0 -0)) then for v46=1188 -(1069 + 118) ,2268711 -1268711  do local v47=0;local v48;local v49;while true do if (0==v47) then v48=math.cos(v46) * math.sin(v46) ;v49=math.sqrt(math.abs(v48));break;end end end task.wait();break;end end end end);
